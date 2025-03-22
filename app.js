@@ -38,7 +38,7 @@ const server = http.createServer((req, res) => {
       </tr>
       <tr>
         <td>M2524003</td>
-        <td>Lê Hoàng Dũng</td>
+        <td>Lê Hoàng Dung</td>
         <td>01/01/2001</td>
         <td>Cần Thơ</td>
         <td>nguyenvana@example.com</td>
