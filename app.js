@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
+  res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 
   const html = `
     <html>
@@ -43,6 +43,14 @@ const server = http.createServer((req, res) => {
           <td>nguyenvana@example.com</td>
           <td>0912345678</td>
         </tr>
+        <tr>
+        <td>M2524003</td>
+        <td>Nguyen Van A</td>
+        <td>01/01/2001</td>
+        <td>Cần Thơ</td>
+        <td>nguyenvana@example.com</td>
+        <td>0912345678</td>
+      </tr>
         <tr>
           <td>...</td>
           <td></td>
